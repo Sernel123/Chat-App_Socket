@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   
+</head>
+<style>
+    .chatterBg {
+        background-color: white;
+        opacity: 0.7;
+        font-size: 40px;
+    }
+    .btn {
+        margin-left: 45%;
+    }
+</style>
+
+<body class="bg-primary">
+    <div class=" container chatterBg">
+        <h1 class="text-center text-dark mt-5 chatter"><span><u>CHAT</u></span>ter</h1>
+        <p class="text-dark chatText ml-5"> Chat to random people and be friends with them !</p>
+        <button type="button" id="chatButton" class="btn btn-success btnChat mb-3">Chat Now!</button>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+    document.getElementById('chatButton').onclick = function () {
+        window.location.href = "chat";
+    };
+</script>
+
+</html>

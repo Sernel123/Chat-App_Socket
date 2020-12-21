@@ -1,0 +1,91 @@
+
+
+::-webkit-scrollbar {
+  width: 2px;
+  margin: none;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: red;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+
+.content-body {
+  height: 500px!important;
+  max-height: 500px!important;
+  width: 100%;
+}
+
+.message-container {
+  height: 450px!important;
+  max-height: 450px!important;
+  width: 100%;
+  overflow: auto;
+}
+
+body {
+  font: 13px Helvetica, Arial;
+  /* overflow: hidden; */
+  background-image: url("/img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#LoginDiv {
+  margin-top: 20%;
+  height: 30%;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.leftSmg {
+  text-align: right;
+  background-color: #F0F8FF;
+  display: block;
+  border-radius: 20px;
+  padding: 10px;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  width: max-content;
+  clear: both;
+  float: left;
+}
+
+.rightSmg {
+  text-align: right;
+  background-color: #00BFFF;
+  display: block;
+  border-radius: 20px;
+  padding: 10px 20px;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  width: max-content;
+  clear: both;
+  float: right;
+}
+
+span {
+  font-size: 20px;
+}
+
+.typing {
+  float: left;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.card-header {
+  background-color: coral;
+}
